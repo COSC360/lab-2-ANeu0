@@ -1,0 +1,105 @@
+﻿header, footer {
+    color: white;
+    background-color: #312c32;
+    margin: 0em 4em 0.5em 4em;
+}
+footer {
+    border: solid #312c32 10px;
+}
+h1,h2,h3,nav,footer {
+    font-family: 'Trebuchet MS', 'Lucida Grande', Tahoma, sans-serif
+}
+h1{
+    font-size: 1.5em;
+}
+h2{
+    font-size: .75em;
+}
+h3,nav {
+    font-size:1.125em;
+}
+nav {
+  list-style-type: none;
+  padding: 5px;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+body {
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+    font-size: 100%;
+    margin: 0em 4em 0.5em 4em;
+    background-color: #98dafc;
+}
+a:link {
+    color: #98dafc;
+    font-weight: bold;
+}
+a:visited{
+    color: #daad86;
+}
+a:hover{
+    background-color: #FFFFCC
+}
+.LargeImg {
+    width: 98%;
+    border-width: thin;
+    border: solid;
+    padding: 0.25em;
+    border-spacing: 0.25em;
+}
+.greydient {
+    display:flex;
+    background-image: 
+    linear-gradient(to bottom, grey, white ),
+    url("/images/gray-gradient.png");
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    align-items:center;
+}
+greydient::first-child{
+    
+}
+.byline{
+    display:block;
+    border-top: solid;
+    border-width: thin;
+    font-style:italic;
+    color: grey;
+    padding-top: .5em;
+}
+.comment {
+    display:block;
+    border-bottom: dashed;
+    border-bottom-width: thin;
+    padding-bottom: 1em;
+}
+.MainContent {
+    background-color: white;
+    margin: 0em 4em 0.5em 4em;
+    border: solid white 10px;
+}
+.iconTxt {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 70%;
+    padding-top: .1em;
+}
+#dRelated{
+    padding-top: 2em;
+    padding-bottom: 1em;
+
+}
+#dReviewTwo {
+    border-top-width:thick;
+    padding-top: 2em;
+}
+
+.inlineImgs, .iconImg {
+    padding: .4em;
+}
